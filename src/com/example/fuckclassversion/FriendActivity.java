@@ -213,22 +213,7 @@ public class FriendActivity extends ActionBarActivity{
 //					R.layout.mylistview, R.id.textItem, friendList);
 //			listView.setAdapter(arrayAdapter);
 //			mProgressDialog.dismiss();
-//			listView.setOnItemClickListener(new OnItemClickListener() {
-//
-//				@Override
-//				public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-//						long arg3) {
-//					String command = friendList.get(arg2);
-//					if(command.equals("+")){
-//						dialogBuilder();
-//					}else{
-//						sendPush(command);
-//					}
-//				}
-//				
-//			});
-//			// Close the progressdialog
-//			
+//			listview on itme click			
 		}
 	}
 }

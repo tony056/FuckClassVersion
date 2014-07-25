@@ -197,22 +197,8 @@ public class MainActivity extends ActionBarActivity {
 //					R.layout.mylistview, R.id.textItem, contentList);
 //			listView.setAdapter(arrayAdapter);
 //			mProgressDialog.dismiss();
-//			listView.setOnItemClickListener(new OnItemClickListener() {
-//
-//				@Override
-//				public void onItemClick(AdapterView<?> arg0, View arg1, int index,
-//						long arg3) {
-//
-//					if (contentList.get(index).equals("SIGN UP")) {
-//						dialogBuilder();
-//					} else if (contentList.get(index).equals("SEND FUCK!")) {
-//						Intent intent = new Intent(context, FriendActivity.class);
-//						startActivity(intent);
-//					}
-//				}
-//			});
-//			// Close the progressdialog
-//			
+//			list view on item click
+
 		}
 	}
 }
